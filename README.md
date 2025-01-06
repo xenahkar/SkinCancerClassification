@@ -97,13 +97,13 @@
 
 ### Data Version Control
 
-Применяется DVC (Data Version Control) для версиирования и хранения датасета.
+Применяется DVC (Data Version Control) для версионирования и хранения датасета.
 
 ### Hydra
 
-Для удобства настройки параметров (таких как `batch_size`, `lr`, `num_workers` и
-`num_epochs` и др.) используется Hydra. Конфигурации вынесены в отдельные
-YAML-файлы, расположенные в папке `conf/`.
+Для удобства настройки параметров (`batch_size`, `lr`, `num_workers` и
+`num_epochs` и др.) используется **Hydra**. Конфигурации вынесены в отдельные
+YAML-файлы, расположенные в папке `configs/`.
 
 ### Логирование
 
@@ -135,7 +135,7 @@ python commands.py train training.lr=0.001 training.batch_size=32
 Для оценки модели на тестовом наборе данных с моделью из конфига :
 
 ```bash
-python commands.py train
+python commands.py test
 ```
 
 #### Инференс
