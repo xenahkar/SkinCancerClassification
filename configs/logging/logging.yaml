@@ -1,0 +1,4 @@
+experiment_name: skin-cancer-classification
+run_name: resnet18-model
+mlflow_save_dir: "."
+tracking_uri: http://128.0.1.1:8080

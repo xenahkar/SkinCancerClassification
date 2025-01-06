@@ -1,0 +1,8 @@
+defaults:
+  - _self_
+  - data_loading: data_loading
+  - model: model
+  - training: training
+  - logging: logging
+  - testing: testing
+  - infer: infer

@@ -1,0 +1,7 @@
+.idea/
+venv/
+.DS_Store
+lightning_logs
+mlartifacts
+mlruns
+outputs
